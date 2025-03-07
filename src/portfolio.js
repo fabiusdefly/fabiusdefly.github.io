@@ -23,7 +23,7 @@ const greeting = {
   username: "Kouessan Kpodar",
   title: "Hi all, I'm Ephraim",
   subTitle: emoji(
-    "A passionate Data Analyst 🚀 with experience in transforming data into actionable insights using SQL, R, SpreadSheet, Python, Power BI, and other analytical tools. Skilled in data visualization, statistical analysis, and building data-driven solutions to drive business decisions."
+    "A passionate Data Analyst 🚀 with experience in transforming data into actionable insights using SQL, R, Python, Power BI, SpreadSheet and other analytical tools. Skilled in data visualization, statistical analysis, and building data-driven solutions to drive business decisions."
   ),
   resumeLink: "https://drive.google.com/file/d/1z8z0EV2-ZpiriNK2MXz8Xa5xdcizCqIv/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -59,22 +59,22 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
-    }/*,
+    },
     {
       skillName: "R programming",
-      fontAwesomeClassname: "fas fa-r"
-    }*/,
+      fontAwesomeClassname: "fab fa-r-project"
+    },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Microsoft",
+      fontAwesomeClassname: "fab fa-windows"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Apple",
+      fontAwesomeClassname: "fab fa-apple"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -88,7 +88,7 @@ const educationInfo = {
     {
       schoolName: "ESGIS University Togo",
       logo: require("./assets/images/esgis.png"),
-      subHeader: "License of Science in Computer Science",
+      subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2014 - April 2017",
       desc: "IT, Networks & Telecommunications",
       descBullets: [
@@ -140,29 +140,31 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Assembly II",
+      company: "Medtronic, Minneapolis, MN",
+      companylogo: require("./assets/images/medtronic.jpeg"),
+      date: "April 2022 – Present",
+      desc: "Manufacturing and development of healthcare technologies and therapies.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Train colleagues on the operation of new machinery by clearly communicating functions and best practices, improving team proficiency, and contributing to overall production efficiency",
+        "Analyze machine performance data to proactively detect irregularities, contributing to process optimization and consistent delivery of high-quality medical devices",
+        "Document manufacturing processes and inspection results, maintaining organized records to support quality assurance and facilitate data-driven decision-making",
+        "Monitor equipment performance to identify patterns and potential issues, collaborating with the engineering team to troubleshoot and implement solutions, minimizing downtime and enhancing production efficiency"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Assembly I",
+      company: "Boston Scientific, Maple Grove, Minneapolis",
+      companylogo: require("./assets/images/boston.png"),
+      date: "October 2019 – 03 2022",
+      desc: "Boston Scientific Corporation specializes in medical devices.."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Driver",
+      company: "Uber, Minneapolis, MN",
+      companylogo: require("./assets/images/uber.jpg"),
+      date: "October 2020 – Present",
+      desc: "Uber driver."
     }
   ]
 };
@@ -178,29 +180,29 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "A FEW PROJECTS FROM MY TRAINING",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/capstone.webp"),
+      projectName: "Data Analytics Capstone Project",
+      projectDesc: "This capstone project from the Google Data Analytics Professional Certificate program demonstrates the process of importing and cleaning large Excel datasets into R using the tidyr package. The analysis focused on comparing members and casual customers through data subsets. Visualizations were created using ggplot2 to present the results clearly, enabling stakeholders to make informed decisions.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit Github",
+          url: "http://github.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/covid.jpg"),
+      projectName: "COVID-19 Statistics Analysis and Interactive Dashboard Project",
+      projectDesc: "This project involved cleaning and analyzing a COVID-19 dataset using R programming and SQL to explore specific variables, such as growth and change over time, as well as differences between Minneapolis and the United States. Data views were created to facilitate deeper analysis, then imported into Microsoft Excel and Google Sheets for further cleaning and formatting. Various visualizations were created using Tableau, R, Excel, and SQL, showcasing key data insights, which were then compiled into an interactive dashboard for easy access and exploration.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit Github",
+          url: "http://github.com/"
         }
       ]
     }
@@ -218,50 +220,15 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Google Data Analytics Certificat",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "This certification validates fundamental data analytics skills, including data collection, transformation, organization, and visualization to extract meaningful insights and support decision-making. It involves hands-on labs and a capstone project, enabling mastery of key data processing stages: asking the right questions, preparing and analyzing data, visualizing insights, and driving actionable outcomes. The program also emphasizes teamwork, project management, problem-solving, and proficiency in Google Workspace tools.",
+      image: require("./assets/images/certif.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          url: ""
         }
       ]
     }
