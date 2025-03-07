@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Kouessan Kpodar",
-  title: "Hi all, I'm Ephraim",
+  title: "Hi, I'm Kouessan",
   subTitle: emoji(
     "A passionate Data Analyst 🚀 with experience in transforming data into actionable insights using SQL, R, Python, Power BI, SpreadSheet and other analytical tools. Skilled in data visualization, statistical analysis, and building data-driven solutions to drive business decisions."
   ),
